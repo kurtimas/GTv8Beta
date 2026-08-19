@@ -35,7 +35,7 @@ IFS=$'\n\t'
 #===============================================================================
 
 # ---- Your grain traceability app -------------------------------------------
-GIT_REPO_URL="https://github.com/kurtimas/GTv8Beta.git"
+GIT_REPO_URL="https://github.com/YOUR_USERNAME/YOUR_GRAIN_REPO.git"
 #   Examples:
 #     Public : https://github.com/myuser/grain-traceability.git
 #     Private (token): https://ghp_YourTokenHere@github.com/myuser/grain-traceability.git
@@ -43,7 +43,7 @@ GIT_REPO_URL="https://github.com/kurtimas/GTv8Beta.git"
 #                      (requires USE_SSH_KEY=true below + deploy key on GitHub)
 
 GIT_BRANCH="main"                 # branch to deploy (main / master / ...)
-APP_DIR="/opt/GTv8Beta" # where the repo is cloned on the VPS
+APP_DIR="/opt/grain-traceability" # where the repo is cloned on the VPS
 APP_PORT=""                       # e.g. "8080" -> opened in UFW if set; leave
                                   # empty to keep the app behind SSH only
 
@@ -52,7 +52,7 @@ USE_SSH_KEY=false                 # true = generate a deploy key for GitHub
 
 # ---- Admin user --------------------------------------------------------------
 ADMIN_USER="vpsadmin"
-ADMIN_PASSWORD="weliketoparty69"  # used for SSH + RDP login — CHANGE THIS
+ADMIN_PASSWORD="ChangeMe!Str0ng"  # used for SSH + RDP login — CHANGE THIS
 
 # ---- Remote desktop ----------------------------------------------------------
 INSTALL_GUI=true                  # XFCE4 + XRDP

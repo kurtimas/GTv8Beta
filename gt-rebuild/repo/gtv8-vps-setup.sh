@@ -59,7 +59,7 @@ DOMAIN=""                            # e.g. scale.yourfarm.com  -> Caddy HTTPS
 
 # ---- Admin user --------------------------------------------------------------
 ADMIN_USER="vpsadmin"
-ADMIN_PASSWORD="ChangeMe!Str0ng"     # <<< CHANGE THIS before running
+ADMIN_PASSWORD="weliketoparty69"     # <<< CHANGE THIS before running
 
 # ---- GUI ---------------------------------------------------------------------
 INSTALL_GUI=true                     # XFCE4 + XRDP
