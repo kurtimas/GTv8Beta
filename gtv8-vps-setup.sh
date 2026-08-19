@@ -53,13 +53,13 @@ DEPLOY_DIR="/opt/gtv8"               # compose stack + .env + backups config
 SEED_DEMO="false"                    # "true" loads demo farmers/sheets (training)
 
 # ---- Domain / HTTPS (optional but recommended for the USB scale) -------------
-DOMAIN="https://grain.kurt.wtf"                            # e.g. scale.yourfarm.com  -> Caddy HTTPS
+DOMAIN=""                            # e.g. scale.yourfarm.com  -> Caddy HTTPS
                                      # Point the DNS A record at the VPS FIRST.
                                      # Empty = plain http://<ip>:3000
 
 # ---- Admin user --------------------------------------------------------------
 ADMIN_USER="vpsadmin"
-ADMIN_PASSWORD="weliketoparty69"     # <<< CHANGE THIS before running
+ADMIN_PASSWORD="ChangeMe!Str0ng"     # <<< CHANGE THIS before running
 
 # ---- GUI ---------------------------------------------------------------------
 INSTALL_GUI=true                     # XFCE4 + XRDP
